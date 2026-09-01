@@ -47,8 +47,6 @@ The major objectives of the project are:
 5. **Experimental & Operational Evaluation**
    - Evaluate the actuator for handling structured and unstructured objects while considering payload, weight, and power requirements.
 
-These objectives are outlined in the project documentation on hardware development, CAD modelling, FEA, validation, and operational evaluation. :contentReference[oaicite:1]{index=1}
-
 ---
 
 ## Bio-Inspired Actuator Concept
@@ -72,7 +70,7 @@ When compressed air is supplied to the actuator:
 5. The actuator bends in a controlled direction.
 6. Increasing pressure produces a greater bending angle within the stable operating range.
 
-The actuator length used in the design is approximately **110 mm**. :contentReference[oaicite:2]{index=2}
+The actuator length used in the design is approximately **110 mm**.
 
 ---
 
@@ -87,7 +85,7 @@ The developed actuator demonstrated a lightweight design with significant payloa
 | Payload | ~600 g |
 | Power-to-Weight Ratio | ~27.27× |
 
-These performance values are reported in the project design documentation. :contentReference[oaicite:3]{index=3}
+These performance values are reported in the project design documentation.
 
 ---
 
@@ -127,7 +125,7 @@ Because silicone elastomers undergo large deformation and exhibit nonlinear mate
 | Incompressibility | 10⁻⁶ kPa⁻¹ |
 | Density | 1100 kg/m³ |
 
-The selected material model accounts for large elastic deformation, nonlinear stress–strain behaviour, and near-incompressibility of the silicone elastomer. :contentReference[oaicite:4]{index=4}
+The selected material model accounts for large elastic deformation, nonlinear stress–strain behaviour, and near-incompressibility of the silicone elastomer. 
 
 ---
 
@@ -143,7 +141,7 @@ Different finger thicknesses were investigated using FEA to understand their inf
 - Elements: **41,160**
 - Maximum bending angle: **132.1°**
 
-Beyond the stable pressure range, excessive deformation and distortion of the finger geometry were observed. :contentReference[oaicite:5]{index=5}
+Beyond the stable pressure range, excessive deformation and distortion of the finger geometry were observed.
 
 ### 2.00 mm Finger Thickness
 
@@ -153,7 +151,7 @@ Beyond the stable pressure range, excessive deformation and distortion of the fi
 - Elements: **37,318**
 - Maximum bending angle: **59.9°**
 
-Excessive deformation occurred beyond the stability threshold. :contentReference[oaicite:6]{index=6}
+Excessive deformation occurred beyond the stability threshold. 
 
 ### 1.75 mm Finger Thickness
 
@@ -163,7 +161,7 @@ Excessive deformation occurred beyond the stability threshold. :contentReference
 - Elements: **69,535**
 - Maximum bending angle: **78.5°**
 
-Further pressure resulted in excessive deformation and distortion of the actuator geometry. :contentReference[oaicite:7]{index=7}
+Further pressure resulted in excessive deformation and distortion of the actuator geometry.
 
 ---
 
@@ -189,8 +187,7 @@ The FEA results demonstrate the relationship between applied pneumatic pressure 
 | | 20 kPa | 74.2° |
 | | 20.80 kPa | **78.5°** |
 
-The project results show that **finger thickness significantly affects pressure tolerance, deformation, and bending behaviour**. :contentReference[oaicite:8]{index=8}
-
+The project results show that **finger thickness significantly affects pressure tolerance, deformation, and bending behaviour**.
 ---
 
 ## 3D-Printed Mould Fabrication
@@ -205,7 +202,7 @@ The moulds required for fabricating the soft actuator were manufactured using **
 - **Purpose:** Fabrication of mould components for silicone casting
 - **Printing principle:** Layer-by-layer material deposition
 
-The project used Ultimaker Cura to prepare the models and generate the G-code required for 3D printing. :contentReference[oaicite:9]{index=9}
+The project used Ultimaker Cura to prepare the models and generate the G-code required for 3D printing. 
 
 ---
 
@@ -251,7 +248,7 @@ After curing, the soft body was inserted into the kirigami shell and end caps we
 
 Air inlet tubes were integrated during casting to provide pneumatic actuation and controlled pressure input.
 
-This fabrication sequence is documented in the project fabrication methodology. :contentReference[oaicite:10]{index=10}
+This fabrication sequence is documented in the project fabrication methodology.
 
 ---
 
@@ -324,7 +321,7 @@ The developed soft gripper/actuator concept can be applied to situations requiri
 - Hose manipulation
 - Adaptive grasping
 
-Soft robotic systems are particularly useful where conventional rigid grippers may cause damage or have difficulty adapting to different object geometries. :contentReference[oaicite:11]{index=11} :contentReference[oaicite:12]{index=12}
+Soft robotic systems are particularly useful where conventional rigid grippers may cause damage or have difficulty adapting to different object geometries. 
 
 ---
 
