@@ -280,14 +280,13 @@ This fabrication sequence is documented in the project fabrication methodology.
 
 | Category | Tools / Technology |
 |---|---|
-| CAD Design | CAD Modelling |
+| CAD Design | Creo |
 | Simulation | ANSYS |
 | FEA | Nonlinear Hyperelastic Analysis |
 | Slicing | Ultimaker Cura |
 | Manufacturing | FDM 3D Printing |
 | Mould Material | PLA |
 | Actuator Material | Dragon Skin + Ecoflex |
-| Shell Fabrication | Laser Cutting |
 | Actuation | Pneumatic Pressure |
 
 ---
